@@ -1,0 +1,15 @@
+Source: dummy1
+Section: utils
+Priority: optional
+Maintainer: Ваше Имя <ваш.email@example.com>
+Build-Depends: debhelper (= 13), cmake, qt6-base-dev, qt6-declarative-dev, qt6-wayland
+Standards-Version: 4.5.0
+Homepage: http://example.com
+
+Package: dummy1
+Version: 3.2-2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, build-essential, cmake, qt6-base-dev, qt6-declarative-dev, qt6-wayland
+Description: Простой пример приложения на C++
+ пакет зависит от build-essential и cmake
+

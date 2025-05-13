@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=VK
+Comment=Простой пример приложения на C++
+Exec=/usr/bin/appdummy1
+Icon=/usr/share/icons/hicolor/256x256/apps/dummy1.png
+Terminal=false
+Categories=Utility;
