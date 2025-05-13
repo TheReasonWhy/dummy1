@@ -1,0 +1,11 @@
+CMakeLists.txt.user
+
+# Исключаем файлы в папке debian
+debian/debhelper-build-stamp
+debian/dummy1.substvars
+debian/files
+
+# Исключаем содержимое папок
+/build/
+debian/.debhelper/
+debian/dummy1/
